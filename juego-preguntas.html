@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ricardo Morales Avilés | Juego de preguntas</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .quiz-wrap { max-width: 920px; margin: 0 auto; }
+    .question-card { margin-bottom: 1rem; }
+    .options { display: grid; gap: .7rem; margin-top: .6rem; }
+    .option { display: block; padding: .75rem .9rem; border-radius: 12px; border: 1px solid rgba(255,255,255,.25); background: rgba(255,255,255,.08); cursor: pointer; }
+    .option:hover { border-color: rgba(0,212,255,.65); }
+    .result { margin-top: 1rem; font-weight: 700; }
+    .btn-quiz { margin-top: .8rem; border: none; padding: .78rem 1rem; border-radius: 999px; font-weight: 700; cursor: pointer; color: #03111e; background: linear-gradient(115deg,#8fb0ff,#79f0ff,#ff9fc2); }
+  </style>
+</head>
+<body>
+  <nav class="topbar">
+      <a href="index.html">Inicio</a>
+      <a href="biografia.html">Biografía</a>
+      <a href="cosas-que-hizo.html">Cosas que hizo</a>
+      <a href="impacto.html">Impacto</a>
+      <a class="active" href="juego-preguntas.html">Juego</a>
+  </nav>
+
+  <header>
+    <h1 style="text-align:center;">Juego de preguntas</h1>
+    <p>Pon a prueba lo que aprendiste sobre Ricardo Morales Avilés respondiendo este quiz de 10 preguntas.</p>
+  </header>
+
+  <main class="quiz-wrap">
+    <section class="section question-card">
+      <h2>1) ¿Cuál era una de las áreas más destacadas de su aporte?</h2>
+      <div class="options">
+        <label class="option"><input type="radio" name="q1" value="a"> Matemática aplicada</label>
+        <label class="option"><input type="radio" name="q1" value="b"> Reflexión histórica y cultural</label>
+        <label class="option"><input type="radio" name="q1" value="c"> Ingeniería aeronáutica</label>
+      </div>
+    </section>
+
+    <section class="section question-card">
+      <h2>2) ¿Qué promovía en la educación?</h2>
+      <div class="options">
+        <label class="option"><input type="radio" name="q2" value="a"> Aprendizaje memorístico sin debate</label>
+        <label class="option"><input type="radio" name="q2" value="b"> Lectura crítica y análisis contextual</label>
+        <label class="option"><input type="radio" name="q2" value="c"> Exclusivamente formación técnica</label>
+      </div>
+    </section>
+
+    <section class="section question-card">
+      <h2>3) ¿Cuál fue una idea central de su legado cívico?</h2>
+      <div class="options">
+        <label class="option"><input type="radio" name="q3" value="a"> Evitar el diálogo entre perspectivas</label>
+        <label class="option"><input type="radio" name="q3" value="b"> Restar importancia a la memoria histórica</label>
+        <label class="option"><input type="radio" name="q3" value="c"> Fomentar diálogo informado y ciudadanía crítica</label>
+      </div>
+    </section>
+
+    <section class="section question-card">
+      <h2>4) ¿Qué relación destacaba entre historia y presente?</h2>
+      <div class="options">
+        <label class="option"><input type="radio" name="q4" value="a"> Que no tienen conexión</label>
+        <label class="option"><input type="radio" name="q4" value="b"> Que el estudio histórico ayuda a entender problemas actuales</label>
+        <label class="option"><input type="radio" name="q4" value="c"> Que solo importa el presente</label>
+      </div>
+    </section>
+
+    <section class="section question-card">
+      <h2>5) ¿Cómo puede describirse su perfil intelectual?</h2>
+      <div class="options">
+        <label class="option"><input type="radio" name="q5" value="a"> Investigación, docencia y participación pública</label>
+        <label class="option"><input type="radio" name="q5" value="b"> Solo actividad empresarial</label>
+        <label class="option"><input type="radio" name="q5" value="c"> Únicamente deporte profesional</label>
+      </div>
+    </section>
+
+    <section class="section question-card">
+      <h2>6) ¿Qué papel tuvo la memoria histórica en su pensamiento?</h2>
+      <div class="options">
+        <label class="option"><input type="radio" name="q6" value="a"> Un tema irrelevante</label>
+        <label class="option"><input type="radio" name="q6" value="b"> Una base para diálogo y ciudadanía</label>
+        <label class="option"><input type="radio" name="q6" value="c"> Solo una moda académica</label>
+      </div>
+    </section>
+
+    <section class="section question-card">
+      <h2>7) ¿Qué buscaba al participar en conferencias y debates?</h2>
+      <div class="options">
+        <label class="option"><input type="radio" name="q7" value="a"> Alejar al público de la historia</label>
+        <label class="option"><input type="radio" name="q7" value="b"> Democratizar el conocimiento histórico</label>
+        <label class="option"><input type="radio" name="q7" value="c"> Evitar preguntas del público</label>
+      </div>
+    </section>
+
+    <section class="section question-card">
+      <h2>8) ¿Qué tipo de ciudadanía promovía?</h2>
+      <div class="options">
+        <label class="option"><input type="radio" name="q8" value="a"> Pasiva y sin análisis</label>
+        <label class="option"><input type="radio" name="q8" value="b"> Crítica, informada y participativa</label>
+        <label class="option"><input type="radio" name="q8" value="c"> Indiferente a la cultura</label>
+      </div>
+    </section>
+
+    <section class="section question-card">
+      <h2>9) ¿Cuál fue uno de sus impactos en la cultura?</h2>
+      <div class="options">
+        <label class="option"><input type="radio" name="q9" value="a"> Desconectar historia e identidad</label>
+        <label class="option"><input type="radio" name="q9" value="b"> Reforzar memoria colectiva e identidad nacional</label>
+        <label class="option"><input type="radio" name="q9" value="c"> Eliminar el interés por autores locales</label>
+      </div>
+    </section>
+
+    <section class="section question-card">
+      <h2>10) ¿Cómo resumirías su legado?</h2>
+      <div class="options">
+        <label class="option"><input type="radio" name="q10" value="a"> Un aporte limitado a un solo ámbito</label>
+        <label class="option"><input type="radio" name="q10" value="b"> Un legado integral en educación, cultura y pensamiento cívico</label>
+        <label class="option"><input type="radio" name="q10" value="c"> Una trayectoria sin influencia pública</label>
+      </div>
+      <button class="btn-quiz" id="btnEvaluar">Evaluar respuestas</button>
+      <p class="result" id="resultado"></p>
+    </section>
+  </main>
+
+  <footer>
+    Juego de preguntas | Ricardo Morales Avilés
+  </footer>
+
+  <script>
+    const correctas = {
+      q1: 'b', q2: 'b', q3: 'c', q4: 'b', q5: 'a',
+      q6: 'b', q7: 'b', q8: 'b', q9: 'b', q10: 'b'
+    };
+
+    document.getElementById('btnEvaluar').addEventListener('click', () => {
+      let puntaje = 0;
+      for (const [pregunta, correcta] of Object.entries(correctas)) {
+        const seleccionada = document.querySelector(`input[name="${pregunta}"]:checked`);
+        if (seleccionada && seleccionada.value === correcta) puntaje++;
+      }
+      const salida = document.getElementById('resultado');
+      salida.textContent = `Obtuviste ${puntaje} de 10 respuestas correctas.`;
+    });
+  </script>
+</body>
+</html>
